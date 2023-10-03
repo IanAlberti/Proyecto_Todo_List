@@ -1,0 +1,46 @@
+.container {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: blanchedalmond;
+}
+
+.file {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#all-tasks {
+  padding-left: 0px;
+  list-style: none;
+  border-radius: 5px;
+}
+
+.li-task {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  max-height: 30px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  background-color: red;
+  border-radius: 5px;
+}
+
+.green {
+  background-color: green;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.delete-button {
+  border: 0;
+  background-color: transparent;
+}
